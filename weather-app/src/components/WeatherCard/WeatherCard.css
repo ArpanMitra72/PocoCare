@@ -1,0 +1,15 @@
+.weather-card {
+  border: 8px solid transparent;
+  transition: border 0.3s, background-color 0.3s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.weather-card:hover {
+  border-color: skyblue;
+  background-color: lightyellow;
+}
